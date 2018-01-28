@@ -1,0 +1,26 @@
+{
+  "name": "ninjacom",
+  "version": "1.0.0",
+  "description": "an application that let users quickly get familiar with nigeria, its people, culture, polities\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C and learn about nigeria\u001ba\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C, its people, culture, polities...",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutugodfrey/ninjacom.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "npm",
+    "react",
+    "webpack"
+  ],
+  "author": "Tutu Godfrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tutugodfrey/ninjacom/issues"
+  },
+  "homepage": "https://github.com/tutugodfrey/ninjacom#readme"
+}
