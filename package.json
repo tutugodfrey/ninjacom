@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "build":"babel server/src -s -d server/dist",
-    "start":"node server/trans/www",
-    "start:dev":"babel-node server/src/app"
+    "build":"babel server/src -s -d server/trans",
+    "start":"node server/trans/bin/www",
+    "start:dev":"babel-node server/src/bin/www"
   },
   "repository": {
     "type": "git",

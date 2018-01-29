@@ -1,1 +1,1 @@
-#ninjacom
+web: node ./server/trans/bin/www
