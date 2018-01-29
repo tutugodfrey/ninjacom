@@ -1,14 +1,14 @@
 import express from 'express';
+import routes from './routes/index'
 
 const Server = class {
 	constructor() {
 		this.express = express;
+		this.route = routes
 	}
 	expressServer() {
 		const app = this.express();
-		app.get('/', (req, res) => {
-		 res.status(200).send('welcome to ninjacom')
-		})
+		this.route(app)
 		return app;
 	}
 	
