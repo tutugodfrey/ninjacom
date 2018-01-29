@@ -4,7 +4,10 @@
   "description": "an application that let users quickly get familiar with nigeria, its people, culture, polities\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C and learn about nigeria\u001ba\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C, its people, culture, polities...",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "build":"babel server/src -s -d server/dist",
+    "start":"node server/trans/www",
+    "start:dev":"babel-node server/src/app"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,20 @@
   "bugs": {
     "url": "https://github.com/tutugodfrey/ninjacom/issues"
   },
-  "homepage": "https://github.com/tutugodfrey/ninjacom#readme"
+  "homepage": "https://github.com/tutugodfrey/ninjacom#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv-save": "^1.2.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.11",
+    "webpack": "^3.10.0"
+  }
 }
